@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+}
+.container{
+    height: 100vh;
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    font-size: 60px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    align-items: center;
+}
+
+form input{
+    width: 80%;
+}
+
